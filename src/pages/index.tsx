@@ -23,11 +23,14 @@ export default function Home() {
                 <p className="w-1/2 text-white text-2xl mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur laboriosam maxime officia.</p>
                 <button className="text-white border border-white p-3 rounded mt-16">Get in Touch --></button>
             </div>
-            <div className="flex flex-col items-center justify-between h-auto">
+            <div className="flex flex-col items-center justify-between text-white h-auto">
                 <div className="">A</div>
                 <div className="">B</div>
                 <div className="">C</div>
             </div>
+        </div>
+        <div className="text-center text-white animate-bounce">
+            |
         </div>
     </main>
   )
