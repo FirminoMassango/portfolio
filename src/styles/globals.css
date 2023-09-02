@@ -4,17 +4,28 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-dark: #1E1E1E;
+  --background-dark: #1e1e1e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-dark: #1E1E1E;
+    --background-dark: #1e1e1e;
   }
 }
 
 body {
   color: var(--foreground-rgb);
-  background: var(--background-dark)
+  background: var(--background-dark);
+}
+
+main {
+  scroll-snap-type: y mandatory;
+  /* overflow-y: scroll; */
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
 }

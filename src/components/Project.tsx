@@ -1,13 +1,19 @@
+import Image from "next/image";
+import { StaticImageData } from "next/image";
+
 interface ProjectProps {
   name: string;
+  projectCover: StaticImageData;
 }
 
 function Project(props: ProjectProps) {
   return (
-    <div className="w-full h-56 mb-0 border border-white rounded text-center">
-      <span className="relative top-44 bg-zinc-800/80 py-2 px-8 rounded">
+    <div className="relative w-full h-56 mb-0 border border-white rounded text-center">
+      <Image src={props.projectCover} alt="Picture of the author" fill />
+      <span className="hover">JJJJ</span>
+      {/* <span className="relative top-44 bg-zinc-800/80 py-2 px-8 rounded">
         {props.name}
-      </span>
+      </span> */}
     </div>
   );
 }
