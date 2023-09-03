@@ -15,14 +15,15 @@
 }
 
 body {
+  height: 100vh;
   color: var(--foreground-rgb);
   background: var(--background-dark);
 }
 
 main {
-  scroll-snap-type: y mandatory;
-  /* overflow-y: scroll; */
   height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 section {

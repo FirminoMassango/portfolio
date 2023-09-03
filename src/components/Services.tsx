@@ -6,12 +6,12 @@ interface FontProps {
 
 function Services(props: FontProps) {
   return (
-    <section className="mb-16">
+    <section className="mb-16 pt-8">
       <h1 className={`text-5xl mb-8 ${props.font}`}>Services</h1>
       <h2 className="text-2xl font-bold">
         <span className="text-zinc-500 mr-2">1.</span>Visual Design
       </h2>
-      <p className="text-white/70 my-10">
+      <p className="text-white/70 my-5">
         Craft visually striking products that inspire clients and deeply
         resonate with their intended audience, forging meaningful connections
         through design.
@@ -27,7 +27,7 @@ function Services(props: FontProps) {
         viewBox="0 0 167 170"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute left-96 pt-8 ml-24 animate-pulse text-white"
+        className="relative left-96 animate-pulse text-white"
       >
         <g clip-path="url(#clip0_14_47)">
           <path
@@ -46,12 +46,12 @@ function Services(props: FontProps) {
           </clipPath>
         </defs>
       </svg>
-      <h2 className="text-2xl font-bold mt-24">
+      <h2 className="text-2xl font-bold -mt-10">
         <span className="text-zinc-500 mr-2">2.</span>Software Development
       </h2>
-      <p className="text-white/70 my-10">
+      <p className="text-white/70 my-6">
         Proficient in software development, I create powerful solutions that
-        help clients achieve their objectives. My coding expertise and use of
+        help clients achieve their goals. My coding expertise and use of
         frameworks translate ideas into functional, user-friendly applications.
       </p>
       <Table firstCol="Frontend Development" secondCol="Backend Development" />

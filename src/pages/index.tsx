@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <main className={`min-h-screen p-28 text-white ${montserrat.className}`}>
       <Hero font={zenDots.className} />
-      <Services font={zenDots.className} />
       <Works font={zenDots.className} />
+      <Services font={zenDots.className} />
     </main>
   );
 }

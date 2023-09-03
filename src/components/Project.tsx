@@ -8,9 +8,8 @@ interface ProjectProps {
 
 function Project(props: ProjectProps) {
   return (
-    <div className="relative w-full h-56 mb-0 border border-white rounded text-center">
+    <div className="relative w-full h-64 mb-0 border border-white rounded text-center">
       <Image src={props.projectCover} alt="Picture of the author" fill />
-      <span className="hover">JJJJ</span>
       {/* <span className="relative top-44 bg-zinc-800/80 py-2 px-8 rounded">
         {props.name}
       </span> */}
