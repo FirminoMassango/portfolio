@@ -10,7 +10,9 @@ const zenDots = Zen_Dots({ weight: "400", subsets: ["latin-ext"] });
 
 export default function Home() {
   return (
-    <main className={`min-h-screen p-28 text-white ${montserrat.className}`}>
+    <main
+      className={`h-screen snap-y snap-mandatory overflow-y-scroll p-28 text-white ${montserrat.className}`}
+    >
       <Hero font={zenDots.className} />
       <Works font={zenDots.className} />
       <Services font={zenDots.className} />

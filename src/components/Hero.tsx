@@ -4,7 +4,7 @@ interface FontProps {
 
 function Hero(props: FontProps) {
   return (
-    <section className="mb-16 pt-24">
+    <section className="h-screen snap-start mb-16 pt-24">
       <div className="lg:flex justify-between">
         <h1 className={`text-white text-8xl ${props.font}`}>
           Firmino
