@@ -6,7 +6,9 @@ function Hero(props: FontProps) {
   return (
     <section className="h-screen snap-start mb-16 pt-24">
       <div className="lg:flex justify-between">
-        <h1 className={`text-white text-8xl ${props.font}`}>
+        <h1
+          className={`text-white text-6xl lg:text-8xl 2xl:text-9xl ${props.font}`}
+        >
           Firmino
           <br /> Massango
         </h1>

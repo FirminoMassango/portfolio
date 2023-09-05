@@ -4,6 +4,7 @@ import { Zen_Dots } from "next/font/google";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Works from "@/components/Works";
+import Skills from "@/components/Skills";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 const zenDots = Zen_Dots({ weight: "400", subsets: ["latin-ext"] });
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero font={zenDots.className} />
       <Works font={zenDots.className} />
       <Services font={zenDots.className} />
+      <Skills font={zenDots.className} />
     </main>
   );
 }
