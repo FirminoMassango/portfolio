@@ -49,6 +49,13 @@ function Skills(props: FontProps) {
           <Skill skillIcon={Figma} name="Figma" />
         </div>
       </div>
+      <h1 className={`text-5xl mt-16 mb-8 ${props.font}`}>Colaboration</h1>
+      <p className="w-4/5 text-white/90">
+        I'm always excited to collaborate on projects that push the boundaries
+        of design and technology. If you're looking to create exceptional user
+        experiences and innovative solutions, let's connect and bring your ideas
+        to life. Feel free to reach out by clicking the right button.
+      </p>
     </section>
   );
 }
