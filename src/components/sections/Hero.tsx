@@ -28,7 +28,7 @@ function Hero(props: FontProps) {
             and a<span className="font-semibold pl-2">UX Designer</span>. I love
             building better experiences for clients / users.
           </p>
-          <CallToAction marginTopDefault="md:mt-8" marginTopMedium="xl:mt-14" />
+          <CallToAction marginTopDefault="mt-8" marginTopMedium="xl:mt-14" />
         </div>
         <SocialLinks />
       </div>
