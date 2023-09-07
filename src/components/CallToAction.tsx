@@ -5,7 +5,9 @@ interface MarginTopProps {
 
 export default function CallToAction(props: MarginTopProps) {
   return (
-    <button
+    <a
+      href="mailto:massango.fr@gmail.com"
+      target="_blank"
       className={`w-full sm:w-56 px-16 sm:px-32 md:px-4 h-14 flex justify-between items-center text-white border-2 border-white animate-pulse transition hover:border-emerald-400 hover:scale-105 duration-300 p-4 rounded font-medium ${props.marginTopDefault} ${props.marginTopMedium}`}
     >
       <span className="md:pr-6">Get in Touch</span>
@@ -21,6 +23,6 @@ export default function CallToAction(props: MarginTopProps) {
           fill="white"
         />
       </svg>
-    </button>
+    </a>
   );
 }

@@ -16,7 +16,7 @@ function Hero(props: FontProps) {
           <br /> Massango
         </h1>
         <div>
-          <span className="mx-auto text-3xl xl:text-3xl 2xl:text-5xl font-bold bg-gradient-to-r from-zinc-800 to-zinc-500 bg-clip-text text-transparent">
+          <span className="mx-auto text-3xl md:text-5xl 2xl:text-6xl font-bold bg-gradient-to-r from-zinc-800 to-zinc-500 bg-clip-text text-transparent">
             <br />A UX Developer
           </span>
         </div>
@@ -28,7 +28,7 @@ function Hero(props: FontProps) {
             and a<span className="font-semibold pl-2">UX Designer</span>. I love
             building better experiences for clients / users.
           </p>
-          <CallToAction marginTopDefault="mt-8" marginTopMedium="mt-16" />
+          <CallToAction marginTopDefault="md:mt-8" marginTopMedium="xl:mt-14" />
         </div>
         <SocialLinks />
       </div>
