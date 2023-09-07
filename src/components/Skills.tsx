@@ -11,6 +11,7 @@ import Spring from "../assets/icons/spring.png";
 import TypeScript from "../assets/icons/ts.png";
 import Vue from "../assets/icons/vue.png";
 import Skill from "./Skill";
+import TechStack from "./TechStack";
 
 interface FontProps {
   font: string;
@@ -22,9 +23,7 @@ function Skills(props: FontProps) {
       <h1 className={`text-5xl mb-8 ${props.font}`}>Skills</h1>
       <div className="flex justify-between">
         <div>
-          <div className="px-16 py-2 bg-zinc-700 rounded">
-            <span className="font-medium">Frontend</span>
-          </div>
+          <TechStack stack="Frontend" />
           <Skill skillIcon={CSS} name="CSS" />
           <Skill skillIcon={TypeScript} name="TypeScript" />
           <Skill skillIcon={JavaScript} name="JavaScript" />
@@ -33,9 +32,7 @@ function Skills(props: FontProps) {
           <Skill skillIcon={Next} name="Next JS" />
         </div>
         <div>
-          <div className="px-16 py-2 bg-zinc-700 rounded">
-            <span className="font-medium">Backend</span>
-          </div>
+          <TechStack stack="Backend" />
           <Skill skillIcon={Java} name="Java" />
           <Skill skillIcon={PHP} name="PHP" />
           <Skill skillIcon={Python} name="Python" />
@@ -43,18 +40,17 @@ function Skills(props: FontProps) {
           <Skill skillIcon={Spring} name="Spring Boot" />
         </div>
         <div>
-          <div className="px-16 py-2 bg-zinc-700 rounded">
-            <span className="font-medium">Design</span>
-          </div>
+          <TechStack stack="Design" />
           <Skill skillIcon={Figma} name="Figma" />
         </div>
       </div>
       <h1 className={`text-5xl mt-16 mb-8 ${props.font}`}>Colaboration</h1>
       <p className="w-4/5 text-white/90">
-        I'm always excited to collaborate on projects that push the boundaries
-        of design and technology. If you're looking to create exceptional user
-        experiences and innovative solutions, let's connect and bring your ideas
-        to life. Feel free to reach out by clicking the right button.
+        I&apos;m always excited to collaborate on projects that push the
+        boundaries of design and technology. If you&apos;re looking to create
+        exceptional user experiences and innovative solutions, let&apos;s
+        connect and bring your ideas to life. Feel free to reach out by clicking
+        the right button.
       </p>
     </section>
   );
