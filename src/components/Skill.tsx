@@ -8,7 +8,7 @@ interface ProjectProps {
 
 function Skill(props: ProjectProps) {
   return (
-    <div className="flex items-center mt-4 ml-8">
+    <div className="flex items-center mt-4 ml-8 mb-8 md:mb-0">
       <Image
         src={props.skillIcon}
         width={24}

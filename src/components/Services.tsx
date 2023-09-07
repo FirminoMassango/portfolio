@@ -7,11 +7,11 @@ interface FontProps {
 function Services(props: FontProps) {
   return (
     <section className="h-screen snap-start mb-16 pt-8">
-      <h1 className={`text-5xl mb-8 ${props.font}`}>Services</h1>
-      <h2 className="text-2xl font-bold">
+      <h1 className={`text-3xl md:text-5xl mb-8 ${props.font}`}>Services</h1>
+      <h2 className="text-xl md:text-2xl font-bold">
         <span className="text-zinc-500 mr-2">1.</span>Visual Design
       </h2>
-      <p className="text-white/70 my-5">
+      <p className="text-justify text-white/70 my-5">
         Craft visually striking products that inspire clients and deeply
         resonate with their intended audience, forging meaningful connections
         through design.
@@ -46,10 +46,10 @@ function Services(props: FontProps) {
           </clipPath>
         </defs>
       </svg>
-      <h2 className="text-2xl font-bold -mt-10">
+      <h2 className="text-xl md:text-2xl font-bold -mt-10">
         <span className="text-zinc-500 mr-2">2.</span>Software Development
       </h2>
-      <p className="text-white/70 my-6">
+      <p className="text-justify text-white/70 my-6">
         Proficient in software development, I create powerful solutions that
         help clients achieve their goals. My coding expertise and use of
         frameworks translate ideas into functional, user-friendly applications.

@@ -9,14 +9,14 @@ function Table(props: TableProps) {
     <table className="table-auto w-full">
       <tbody>
         <tr className="text-center">
-          <td className="font-semibold border-2 border-zinc-500 py-8">
+          <td className="font-semibold text-sm md:text-base border-2 border-zinc-500 py-8">
             {props.firstCol}
           </td>
-          <td className="font-semibold border-2 border-zinc-600 py-8">
+          <td className="font-semibold text-sm md:text-base border-2 border-zinc-600 py-8">
             {props.secondCol}
           </td>
           {props.thirdCol && (
-            <td className="font-semibold border-2 border-zinc-600 py-8 ">
+            <td className="font-semibold text-sm md:text-base border-2 border-zinc-600 py-8 ">
               {props.thirdCol}
             </td>
           )}

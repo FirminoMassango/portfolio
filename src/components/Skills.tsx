@@ -12,6 +12,7 @@ import TypeScript from "../assets/icons/ts.png";
 import Vue from "../assets/icons/vue.png";
 import Skill from "./Skill";
 import TechStack from "./TechStack";
+import CallToAction from "./CallToAction";
 
 interface FontProps {
   font: string;
@@ -20,8 +21,8 @@ interface FontProps {
 function Skills(props: FontProps) {
   return (
     <section className="h-screen snap-start mb-16 pt-8">
-      <h1 className={`text-5xl mb-8 ${props.font}`}>Skills</h1>
-      <div className="flex justify-between">
+      <h1 className={`text-3xl md:text-5xl mb-8 ${props.font}`}>Skills</h1>
+      <div className="md:flex justify-between">
         <div>
           <TechStack stack="Frontend" />
           <Skill skillIcon={CSS} name="CSS" />
@@ -44,14 +45,19 @@ function Skills(props: FontProps) {
           <Skill skillIcon={Figma} name="Figma" />
         </div>
       </div>
-      <h1 className={`text-5xl mt-16 mb-8 ${props.font}`}>Colaboration</h1>
-      <p className="w-4/5 text-white/90">
-        I&apos;m always excited to collaborate on projects that push the
-        boundaries of design and technology. If you&apos;re looking to create
-        exceptional user experiences and innovative solutions, let&apos;s
-        connect and bring your ideas to life. Feel free to reach out by clicking
-        the right button.
-      </p>
+      <h1 className={`text-3xl md:text-5xl mt-16 mb-4 ${props.font}`}>
+        Colaboration
+      </h1>
+      <div className="md:flex">
+        <p className="text-justify text-sm md:text-base text-white/90 mb-8 md:mb-0 md:mr-8">
+          I&apos;m always excited to collaborate on projects that push the
+          boundaries of design and technology. If you&apos;re looking to create
+          exceptional user experiences and innovative solutions, let&apos;s
+          connect and bring your ideas to life. Feel free to reach out by
+          clicking the right button.
+        </p>
+        <CallToAction />
+      </div>
     </section>
   );
 }
