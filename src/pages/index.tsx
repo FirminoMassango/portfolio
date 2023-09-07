@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import { Zen_Dots } from "next/font/google";
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Works from "@/components/Works";
-import Skills from "@/components/Skills";
+import Hero from "@/components/sections/Hero";
+import Services from "@/components/sections/Services";
+import Works from "@/components/sections/Works";
+import Skills from "@/components/sections/Skills";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 const zenDots = Zen_Dots({ weight: "400", subsets: ["latin-ext"] });

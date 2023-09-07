@@ -10,9 +10,9 @@ import React from "../assets/icons/react.png";
 import Spring from "../assets/icons/spring.png";
 import TypeScript from "../assets/icons/ts.png";
 import Vue from "../assets/icons/vue.png";
-import Skill from "./Skill";
-import TechStack from "./TechStack";
-import CallToAction from "./CallToAction";
+import Skill from "../Skill";
+import TechStack from "../TechStack";
+import CallToAction from "../CallToAction";
 
 interface FontProps {
   font: string;
