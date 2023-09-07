@@ -6,7 +6,7 @@ interface FontProps {
 
 function Services(props: FontProps) {
   return (
-    <section className="h-screen snap-start mb-16 pt-8">
+    <section className="md:h-screen md:snap-start mb-16 pt-8">
       <h1 className={`text-3xl md:text-5xl mb-8 ${props.font}`}>Services</h1>
       <h2 className="text-xl md:text-2xl font-bold">
         <span className="text-zinc-500 mr-2">1.</span>Visual Design

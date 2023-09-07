@@ -20,7 +20,7 @@ interface FontProps {
 
 function Skills(props: FontProps) {
   return (
-    <section className="h-screen snap-start mb-16 pt-8">
+    <section className="md:h-screen md:snap-start mb-16 pt-8">
       <h1 className={`text-3xl md:text-5xl mb-8 ${props.font}`}>Skills</h1>
       <div className="md:flex justify-between">
         <div>
