@@ -1,5 +1,5 @@
-import CallToAction from "./CallToAction";
-import SocialLinks from "./SocialIcons";
+import CallToAction from "../CallToAction";
+import SocialLinks from "../SocialIcons";
 
 interface FontProps {
   font: string;

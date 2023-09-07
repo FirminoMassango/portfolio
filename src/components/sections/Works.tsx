@@ -1,8 +1,8 @@
-import Project from "./Project";
-import mettical from "../assets/mettical.png";
-import wheatherApp from "../assets/weather-app.png";
-import windbnb from "../assets/windbnb.png";
-import randomQuoteGenerator from "../assets/random-quote-generator.png";
+import Project from "../Project";
+import mettical from "../../assets/mettical.png";
+import wheatherApp from "../../assets/weather-app.png";
+import windbnb from "../../assets/windbnb.png";
+import randomQuoteGenerator from "../../assets/random-quote-generator.png";
 
 interface FontProps {
   font: string;
