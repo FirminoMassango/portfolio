@@ -7,7 +7,7 @@ interface FontProps {
 
 function Hero(props: FontProps) {
   return (
-    <section className="md:h-screen md:snap-start pt-8 lg:mb-16 lg:pt-24">
+    <section className="h-screen md:snap-start pt-8 lg:mb-16 lg:pt-24">
       <div className="lg:flex justify-between">
         <h1
           className={`text-white text-5xl md:text-8xl 2xl:text-9xl ${props.font}`}
