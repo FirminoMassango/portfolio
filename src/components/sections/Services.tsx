@@ -27,7 +27,7 @@ function Services(props: FontProps) {
         viewBox="0 0 167 170"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="relative left-96 animate-pulse text-white"
+        className="relative left-96 animate-pulse text-white hidden md:block"
       >
         <g clip-path="url(#clip0_14_47)">
           <path
