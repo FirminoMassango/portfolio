@@ -10,7 +10,7 @@ interface FontProps {
 
 export default function Works(props: FontProps) {
   return (
-    <section className="md:h-screen md:snap-start mb-16 pt-8">
+    <section className="-mt-48 md:mt-0 md:h-screen md:snap-start mb-16 pt-8">
       <h1 className={`text-5xl mb-8 ${props.font}`}>Works</h1>
       <div className="md:flex">
         <div className="flex md:flex-col flex-1 md:items-start justify-between mr-8 mb-4 md:mb-0">

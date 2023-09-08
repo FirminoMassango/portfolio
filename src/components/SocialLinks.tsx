@@ -1,6 +1,14 @@
-export default function SocialLinks() {
+interface SocialLinksProps {
+  hidden: string;
+}
+
+export default function SocialLinks(props: SocialLinksProps) {
+  const hidden = props.hidden == "sm" ? "block md:hidden" : "hidden md:flex";
+
   return (
-    <div className="flex md:flex-col items-center justify-between text-white h-auto mt-12">
+    <div
+      className={`flex md:flex-col items-center justify-between text-white h-auto mt-12 ${hidden}`}
+    >
       <div className="">
         <a
           href="https://behance.net/FirminoMassango"
