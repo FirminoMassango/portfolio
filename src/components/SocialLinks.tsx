@@ -4,7 +4,7 @@ interface SocialLinksProps {
 
 export default function SocialLinks(props: SocialLinksProps) {
   const hidden =
-    props.hidden == "sm" ? "block md:hidden mb-4" : "hidden md:flex";
+    props.hidden == "sm" ? "block md:hidden mb-12" : "hidden md:flex";
 
   return (
     <div
