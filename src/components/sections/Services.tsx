@@ -46,7 +46,7 @@ function Services(props: FontProps) {
           </clipPath>
         </defs>
       </svg>
-      <h2 className="text-xl md:text-2xl font-bold mt-10">
+      <h2 className="text-xl md:text-2xl font-bold mt-10 md:-mt-8">
         <span className="text-zinc-500 mr-2">2.</span>Software Development
       </h2>
       <p className="text-justify text-white/70 my-6">
