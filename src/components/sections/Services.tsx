@@ -4,7 +4,7 @@ interface FontProps {
   font: string;
 }
 
-function Services(props: FontProps) {
+export default function Services(props: FontProps) {
   return (
     <section className="md:h-screen md:snap-start mb-16 pt-8">
       <h1 className={`text-3xl md:text-5xl mb-8 ${props.font}`}>Services</h1>
@@ -58,5 +58,3 @@ function Services(props: FontProps) {
     </section>
   );
 }
-
-export default Services;
