@@ -35,7 +35,7 @@ export default function Works(props: FontProps) {
           </svg>
           <a
             href="#"
-            className="font-semibold underline decoration-sky-500 hidden md:block"
+            className="font-semibold underline decoration-white hidden md:block"
           >
             Contact Me
           </a>
